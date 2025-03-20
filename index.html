@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Week 2</title>
+    </head>
+    <body>
+        <h1>My Ordered List</h1>
+        <ol start="1" type="I">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+            <li>Fifth Item</li>
+        </ol>
+        <h1>My Unordered List</h1>
+        <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+            <li>Fifth Item</li>
+        </ul>
+        <!-- External Image -->
+        <img src="https://images.pexels.com/photos/1264077/pexels-photo-1264077.jpeg" alt="Example Image from Pexels" width="600">
+
+        <!--Table of Contact-->
+        <table border="1" cellspacing = "0" cellpadding = "5">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Elm St</td>
+                    <td> johndoe@gmail.com</td>
+                    <td>254-712-345-678</td>
+                </tr>
+                <tr>
+                    <td> Jammie Fox</td>
+                    <td> 5678 Oak St</td>
+                    <td> jammiefox@gmail.com</td>
+                    <td> 254-712-345-987</td>
+                </tr>
+                <tr>
+                    <td>Alex Brown</td>
+                    <td>789 Pine Road</td>
+                    <td>brownalexy@gmail.com</td>
+                    <td>254-712-345-985</td>
+                </tr>
+                <tr>
+                    <td>Emily White</td>
+                    <td>101 Maple Lane</td>
+                    <td>emily@gmail.com</td>
+                    <td>254-712-345-672</td>
+                </tr>
+                <tr>
+                    <td>Chris Green</td>
+                    <td>202 Birch Boulevard</td>
+                    <td>chrisgreen@gmail.com</td>
+                    <td>254-712-345-679</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+
+        <!--Registration Form-->
+        <h1>Registration Form</h1>
+        <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last Name:</label> 
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="Date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Burundi">Burundi</option>
+            </select><br><br>
+            
+            <!--Use of Radio-->
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label><br><br>
+
+            <!--Use of Checkbox-->
+            <label for="Hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies" id="art" value="Art">
+            <label for="Art">Art</label>
+            <input type="checkbox" name="hobbies" id="music" value="Music">
+            <label for="music">Music</label>
+            <input type="checkbox" name="hobbies" id="hiking" value="Hiking">
+            <label for="hiking">Hiking</label><br><br>
+
+            <!--Submit Button-->
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
